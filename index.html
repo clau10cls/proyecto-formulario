@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
 <body>
     <section id="section-1">
     <!-- CONTENEDOR DEL FORMULARIO -->
-    <div class="container-msf" id="container-msf">
+    <div class="msf-container" id="msf-container">
         <!-- BARRA DE PROGRESO -->
         <div class="msf-progress" id="msf-progress">
             <span id="step1-progress">1</span>
@@ -21,7 +21,7 @@
             <span id="step4-progress">4</span>
         </div>
         <!-- PASO 1 -->
-        <form class="content-msf msf_active" id="msf-step1">
+        <form class="msf-content msf_active" id="msf-step1">
             <H2>PRIMER PASO</H2>
             <div class="msf-inputs">
                 <input type="text" placeholder="Nombre">
@@ -29,11 +29,11 @@
                 <input type="email" placeholder="E-Mail">
             </div>
             <div class="msf-btns">
-                <button type="button" id="msf1-btn_next">Siguiente</button>
+                <button type="button" class="msf-btn-next">Siguiente</button>
             </div>
         </form>
         <!-- PASO 2 -->
-        <form class="content-msf msf_inactive" id="msf-step2">
+        <form class="msf-content msf_inactive" id="msf-step2">
             <H2>SEGUNDO PASO</H2>
             <div class="msf-inputs">
                 <input type="text" placeholder=" ">
@@ -41,12 +41,12 @@
                 <input type="text" placeholder=" ">
             </div>
             <div class="msf-btns">
-                <button type="button" id="msf2-btn_prev">Anterior</button>
-                <button type="button" id="msf2-btn_next">Siguiente</button>
+                <button type="button" class="msf-btn-prev">Anterior</button>
+                <button type="button" class="msf-btn-next">Siguiente</button>
             </div>
         </form>
         <!-- PASO 3 -->
-        <form class="content-msf msf_inactive" id="msf-step3">
+        <form class="msf-content msf_inactive" id="msf-step3">
             <H2>TERCER PASO</H2>
             <div class="msf-inputs">
                 <input type="text" placeholder="Usuario">
@@ -54,12 +54,12 @@
                 <input type="password" placeholder="Confirmar contraseña">
             </div>
             <div class="msf-btns">
-                <button type="button" id="msf3-btn_prev">Anterior</button>
-                <button type="button" id="msf3-btn_next">Siguiente</button>
+                <button type="button" class="msf-btn-prev">Anterior</button>
+                <button type="button" class="msf-btn-next">Siguiente</button>
             </div>
         </form>
         <!-- PASO 4 -->
-        <form class="content-msf msf_inactive" id="msf-step4">
+        <form class="msf-content msf_inactive" id="msf-step4">
             <H2>ULTIMO PASO</H2>
             <div class="msf-inputs">
                 <input type="text" placeholder=" ">
@@ -67,8 +67,8 @@
                 <input type="text" placeholder=" ">
             </div>
             <div class="msf-btns">
-                <button type="button" id="msf4-btn_prev">Anterior</button>
-                <button type="submit" id="msf4-btn_submit">Finalizar</button>
+                <button type="button" class="msf-btn-prev">Anterior</button>
+                <button type="submit" id="msf-btn_submit">Finalizar</button>
             </div>
         </form>
     </div>

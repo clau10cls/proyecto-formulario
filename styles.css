@@ -29,7 +29,7 @@ body{
 
 /* FORMULARIO - CONTENEDOR */
 
-.container-msf{
+.msf-container{
     background-color: var(--color-white);
     height: 420px;
     width: 360px;
@@ -51,30 +51,17 @@ body{
     justify-content: space-between;
 }
 
-/* 
-#step1-progress{
-}
-
-#step2-progress{
-    
-}
-
-#step3-progress{
-    
-}
-*/
-
 
 /* FORMULARIO - CONTENIDO */
 
-form.content-msf{
+.msf-content{
     width: 100%;
     position: absolute;
     /* TRANSICION */
-    transition: all .7s;
+    transition: all .6s;
 }
 
-form.content-msf h2{
+.msf-content h2{
     padding-top: 20px;
     text-align: center;
 }
@@ -124,34 +111,10 @@ form.content-msf h2{
     
 }
 
-/* 
-.msf-btns button:hover{
-        
-} 
-*/
-
-
-/* FORMULARIO - PASOS */
-
+/* PASOS INACTIVOS */
 
 .msf_inactive{
     margin-left: 100%;
 }
 
 
-/* #msf-step1{
-    margin-left: 0;
-}
-
-#msf-step2{
-    margin-left: 100%;
-}
-
-#msf-step3{
-    margin-left: 100%;
-}
-
-#msf-step4{
-    margin-left: 100%;
-} 
- */
