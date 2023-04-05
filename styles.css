@@ -1,0 +1,157 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --color-white: #f5f5dc;
+    --color1: rgb(187, 54, 199);
+    --color2: rgb(124, 238, 228);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background: linear-gradient(var(--color1),var(--color2));
+}
+
+#section-1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORMULARIO - CONTENEDOR */
+
+.container-msf{
+    background-color: var(--color-white);
+    height: 420px;
+    width: 360px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0px 3px 4px 2px rgba(85,85,85,.5);
+    overflow: hidden;
+    
+}
+
+/* FORMULARIO - BARRA DE PROGRESO */
+
+.msf-progress{
+    height: 40px;
+    padding: 0 40px;
+    border-bottom: 1px gray solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 
+#step1-progress{
+}
+
+#step2-progress{
+    
+}
+
+#step3-progress{
+    
+}
+*/
+
+
+/* FORMULARIO - CONTENIDO */
+
+form.content-msf{
+    width: 100%;
+    position: absolute;
+    /* TRANSICION */
+    transition: all .7s;
+}
+
+form.content-msf h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* FORMULARIO - CAMPOS */
+
+.msf-inputs{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.msf-inputs input{
+    width: 220px;
+    margin: 5px 0;
+    padding: 10px 5px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px gray solid;
+}
+
+/* FORMULARIO - BOTONES */
+
+.msf-btns{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.msf-btns button{
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    background: linear-gradient(to right,var(--color1),var(--color2));
+    filter: blur();
+    color: var(--color-white);
+    font-weight: 550;
+    box-shadow: 0px 3px 2px 1px rgba(85,85,85,.5);
+    
+}
+
+/* 
+.msf-btns button:hover{
+        
+} 
+*/
+
+
+/* FORMULARIO - PASOS */
+
+
+.msf_inactive{
+    margin-left: 100%;
+}
+
+
+/* #msf-step1{
+    margin-left: 0;
+}
+
+#msf-step2{
+    margin-left: 100%;
+}
+
+#msf-step3{
+    margin-left: 100%;
+}
+
+#msf-step4{
+    margin-left: 100%;
+} 
+ */
